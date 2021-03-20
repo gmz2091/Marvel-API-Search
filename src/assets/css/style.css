@@ -1,0 +1,189 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu:300,400,500";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f9f9f9;
+  font-family: Ubuntu, sans-serif;
+}
+
+.error {
+  position: relative;
+  max-width: 350px;
+  margin-top: 10px;
+  color: rgb(131, 12, 12);
+  background-color: rgb(214, 153, 153);
+  padding: 15px 10px;
+  border-radius: 2px;
+  border: 0;
+  overflow: hidden;
+}
+
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.card {
+  position: relative;
+  padding: 0 0 30px 0;
+  width: 20%;
+  background: rgb(25, 142, 172);
+  border-radius: 3px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+}
+
+/*.card:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	top: 0;
+	background: #f9f9f9;
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	z-index: -1
+}*/
+
+.card_photo {
+  position: relative;
+  background: #fff;
+  padding: 5px;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.mt-5 {
+  margin-top: 150px;
+}
+
+.width-20 {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.img-head {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerName {
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: auto;
+  color: blanchedalmond;
+}
+
+.form-hero {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.form-hero__inpu-name {
+  position: relative;
+  margin-left: 0;
+  background: #f2f2f2;
+  width: 40%;
+  margin: 20px 20px;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  overflow: hidden;
+  outline: none;
+}
+.form-hero__inpu-name:focus {
+  outline: none;
+}
+
+.form-hero__button-search {
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 8%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
