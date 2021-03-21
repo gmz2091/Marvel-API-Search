@@ -176,7 +176,6 @@ input[type="search"]::-webkit-search-decoration {
 .form-hero__button-search {
   text-transform: uppercase;
   outline: 0;
-  background: #4caf50;
   width: 8%;
   border: 0;
   padding: 15px;
