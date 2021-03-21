@@ -1,6 +1,7 @@
 import dataMarvel from "../views/data.html";
-import "../assets/css/style.css";
 import getData from "../utils/getData";
+import  'tailwindcss/tailwind.css'
+import "../assets/css/style.css";
 
 const Template = async () => {
   const divElement = document.createElement("div");
@@ -52,7 +53,7 @@ const Template = async () => {
       divErr.innerHTML = `
         <p>${mensaje}</p>
     `;
-      console.log(divErr);
+      console.log(root);
       root.appendChild(divErr);
       setTimeout(() => {
         divErr.remove();
